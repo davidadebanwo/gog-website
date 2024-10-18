@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo_and_name">
+            <div class="logo">
+                <img src="/assets/gog_logo.png" alt="GOG logo" srcset="">
+            </div>
+            <div class="church_name">
+                <h1>Generals of Grace</h1>
+            </div>
+        </div>
+            
+
+        <div class="menu">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Sermons</li>
+                <li id="live">Live</li>
+                <li>Branches</li>
+                <li>Testimonies</li>
+                <li>Partnership</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="hero_section">
+    <!-- Hero Section HTML -->
+        <div class="swiper-container hero-section">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide slide-img-1">
+                    <div class="slide-content">
+                        <h1>Welcome to Generals of Grace</h1>
+                        <p>A Portal of Encounters, Empowerment, and Transformation</p>
+                        <div class="button-div">
+                            <a href="#about" class="button">Learn More</a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide slide-img-2">
+                    <div class="slide-content">
+                        <h1>Empowering Kingdom Generals</h1>
+                        <p>Anointed and Equipped to Impact the World</p>
+                        <div class="button-div">
+                            <a href="#ministries" class="button">Discover Our Mission</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide slide-img-3">
+                    <div class="slide-content">
+                        <h1>Experience Divine Encounters</h1>
+                        <p>Join Us for Worship and Be Transformed</p>
+                        <div class="button-div">
+                            <a href="#events" class="button">Join Us</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Swiper Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- About us section -->
+    <div class="about-us_section">
+        <div class="title">
+            <h1>Who we are</h1>            
+        </div>
+
+        <div class="about-content">
+            <div class="about-content-img">
+                <img src="/assets/image-13.jpg" alt="" srcset="">
+            </div>
+            <div class="about-content-text">
+                <p>Generals of Grace (GOG) is a Pentecostal assembly based in Benin, dedicated to empowering believers to become powerful agents of God’s kingdom. As a portal of encounters, GOG is a place where kingdom generals are anointed and equipped with supernatural mantles to bring God’s light into every sphere of life—family, business, government, and beyond. Our mission is to raise a generation deeply rooted in faith, bold in purpose, and passionate about advancing God’s kingdom on earth.</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+        loop: true, // Enables continuous loop
+        autoplay: {
+            delay: 3000, // Auto-slide every 3 seconds
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        effect: 'fade', // Optional for a fading transition effect
+        });
+    </script>
+</body>
+</html>
