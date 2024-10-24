@@ -13,5 +13,9 @@ app.get('/', (req, res) => {
     res.render('home');
 })
 
+app.get('/about', (req, res) => {
+    res.render('about')
+})
+
 const PORT = 2000;
 app.listen(PORT, () => console.log(`Server is listening at port ${PORT}`));
